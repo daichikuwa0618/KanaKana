@@ -14,6 +14,8 @@ An iPhone application that converts Japanese Kanji letters input -> Japanese Kan
 - e.g.
   - input: `漢字`
   - output: `かんじ` or `カンジ`
+- Archtecture
+  - RxSwift + MVVM Layered Architecture
 
 ## Reference
 
