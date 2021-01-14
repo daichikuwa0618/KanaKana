@@ -9,6 +9,18 @@ An iPhone application that converts Japanese Kanji letters input -> Japanese Kan
 
 ## Usage
 
+To build develop environment, hit the command below;
+
+```shell
+$ make bootstrap; make open
+```
+
+- Dependency resolving
+- Project settings
+- Opening your Xcode
+
+will be carried out.
+
 ## Features
 - converts Japanese Kanji to Kana
 - e.g.
