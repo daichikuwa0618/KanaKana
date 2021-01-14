@@ -91,4 +91,9 @@ iOSInjectionProject/
 
 # Generated files
 
-*.generated.swift
+KanaKana/Generated/*
+
+# gitkeep
+# this should be end of gitignore
+
+!.gitkeep
