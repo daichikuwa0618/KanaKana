@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CF5C6E0B5A16F306671ABAD /* Pods_KanaKana_KanaKanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE32CE28196B5A8D0250E3BE /* Pods_KanaKana_KanaKanaUITests.framework */; };
+		74D7C50B013F3397E335E423 /* Pods_KanaKanaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ED77D6AE9BA29D37A6E5CF /* Pods_KanaKanaTests.framework */; };
+		96C36925696E78C8A1EAA950 /* Pods_KanaKana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6F9694465508125A8CD0F2 /* Pods_KanaKana.framework */; };
 		C9E0EE5F25B08507009E40E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EE5E25B08507009E40E6 /* AppDelegate.swift */; };
 		C9E0EE6125B08507009E40E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EE6025B08507009E40E6 /* SceneDelegate.swift */; };
 		C9E0EE6325B08507009E40E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EE6225B08507009E40E6 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		C9E0EE6B25B08509009E40E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E0EE6925B08509009E40E6 /* LaunchScreen.storyboard */; };
 		C9E0EE7625B08509009E40E6 /* KanaKanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EE7525B08509009E40E6 /* KanaKanaTests.swift */; };
 		C9E0EE8125B08509009E40E6 /* KanaKanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EE8025B08509009E40E6 /* KanaKanaUITests.swift */; };
+		C9E0EEB225B0B97D009E40E6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EEB125B0B97D009E40E6 /* R.generated.swift */; };
+		C9E0EEB825B0BC92009E40E6 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = C9E0EEB725B0BC92009E40E6 /* Rswift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17576D947FC74359E9BA5394 /* Pods-KanaKanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKanaTests.debug.xcconfig"; path = "Target Support Files/Pods-KanaKanaTests/Pods-KanaKanaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		298A8409A6CDC2C39550DDBB /* Pods-KanaKana-KanaKanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKana-KanaKanaUITests.debug.xcconfig"; path = "Target Support Files/Pods-KanaKana-KanaKanaUITests/Pods-KanaKana-KanaKanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		337120729D321670256D1E60 /* Pods-KanaKanaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKanaTests.release.xcconfig"; path = "Target Support Files/Pods-KanaKanaTests/Pods-KanaKanaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B37DC3FA1A54581E9798959B /* Pods-KanaKana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKana.release.xcconfig"; path = "Target Support Files/Pods-KanaKana/Pods-KanaKana.release.xcconfig"; sourceTree = "<group>"; };
+		BD6F9694465508125A8CD0F2 /* Pods_KanaKana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaKana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C437602E46645E50695E09FF /* Pods-KanaKana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKana.debug.xcconfig"; path = "Target Support Files/Pods-KanaKana/Pods-KanaKana.debug.xcconfig"; sourceTree = "<group>"; };
 		C9E0EE5B25B08507009E40E6 /* KanaKana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaKana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E0EE5E25B08507009E40E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E0EE6025B08507009E40E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,10 @@
 		C9E0EE7C25B08509009E40E6 /* KanaKanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanaKanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E0EE8025B08509009E40E6 /* KanaKanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaKanaUITests.swift; sourceTree = "<group>"; };
 		C9E0EE8225B08509009E40E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E0EEB125B0B97D009E40E6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		D9ED77D6AE9BA29D37A6E5CF /* Pods_KanaKanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaKanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE32CE28196B5A8D0250E3BE /* Pods_KanaKana_KanaKanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaKana_KanaKanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEEE4E4ACB829F9F06A721C /* Pods-KanaKana-KanaKanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKana-KanaKanaUITests.release.xcconfig"; path = "Target Support Files/Pods-KanaKana-KanaKanaUITests/Pods-KanaKana-KanaKanaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C36925696E78C8A1EAA950 /* Pods_KanaKana.framework in Frameworks */,
+				C9E0EEB825B0BC92009E40E6 /* Rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D7C50B013F3397E335E423 /* Pods_KanaKanaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF5C6E0B5A16F306671ABAD /* Pods_KanaKana_KanaKanaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CBB3215D1480D32839F8E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C437602E46645E50695E09FF /* Pods-KanaKana.debug.xcconfig */,
+				B37DC3FA1A54581E9798959B /* Pods-KanaKana.release.xcconfig */,
+				298A8409A6CDC2C39550DDBB /* Pods-KanaKana-KanaKanaUITests.debug.xcconfig */,
+				ECEEE4E4ACB829F9F06A721C /* Pods-KanaKana-KanaKanaUITests.release.xcconfig */,
+				17576D947FC74359E9BA5394 /* Pods-KanaKanaTests.debug.xcconfig */,
+				337120729D321670256D1E60 /* Pods-KanaKanaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1D343F44814239D7E6B5F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6F9694465508125A8CD0F2 /* Pods_KanaKana.framework */,
+				DE32CE28196B5A8D0250E3BE /* Pods_KanaKana_KanaKanaUITests.framework */,
+				D9ED77D6AE9BA29D37A6E5CF /* Pods_KanaKanaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9E0EE5225B08507009E40E6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				C9E0EE7425B08509009E40E6 /* KanaKanaTests */,
 				C9E0EE7F25B08509009E40E6 /* KanaKanaUITests */,
 				C9E0EE5C25B08507009E40E6 /* Products */,
+				4CBB3215D1480D32839F8E0D /* Pods */,
+				C1D343F44814239D7E6B5F89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,7 @@
 		C9E0EE5D25B08507009E40E6 /* KanaKana */ = {
 			isa = PBXGroup;
 			children = (
+				C9E0EEB025B0B97D009E40E6 /* Generated */,
 				C9E0EE5E25B08507009E40E6 /* AppDelegate.swift */,
 				C9E0EE6025B08507009E40E6 /* SceneDelegate.swift */,
 				C9E0EE6225B08507009E40E6 /* ViewController.swift */,
@@ -128,6 +173,14 @@
 			path = KanaKanaUITests;
 			sourceTree = "<group>";
 		};
+		C9E0EEB025B0B97D009E40E6 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0EEB125B0B97D009E40E6 /* R.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +188,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E0EE8525B08509009E40E6 /* Build configuration list for PBXNativeTarget "KanaKana" */;
 			buildPhases = (
+				80DAAE806D8167499047A554 /* [CP] Check Pods Manifest.lock */,
+				C9E0EE9A25B0B5C7009E40E6 /* ShellScript */,
 				C9E0EE5725B08507009E40E6 /* Sources */,
 				C9E0EE5825B08507009E40E6 /* Frameworks */,
 				C9E0EE5925B08507009E40E6 /* Resources */,
@@ -144,6 +199,9 @@
 			dependencies = (
 			);
 			name = KanaKana;
+			packageProductDependencies = (
+				C9E0EEB725B0BC92009E40E6 /* Rswift */,
+			);
 			productName = KanaKana;
 			productReference = C9E0EE5B25B08507009E40E6 /* KanaKana.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E0EE8825B08509009E40E6 /* Build configuration list for PBXNativeTarget "KanaKanaTests" */;
 			buildPhases = (
+				B1772D23CDADFA62A5AAB005 /* [CP] Check Pods Manifest.lock */,
 				C9E0EE6D25B08509009E40E6 /* Sources */,
 				C9E0EE6E25B08509009E40E6 /* Frameworks */,
 				C9E0EE6F25B08509009E40E6 /* Resources */,
@@ -170,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9E0EE8B25B08509009E40E6 /* Build configuration list for PBXNativeTarget "KanaKanaUITests" */;
 			buildPhases = (
+				7FDAB17D198BCA92E3525DEE /* [CP] Check Pods Manifest.lock */,
 				C9E0EE7825B08509009E40E6 /* Sources */,
 				C9E0EE7925B08509009E40E6 /* Frameworks */,
 				C9E0EE7A25B08509009E40E6 /* Resources */,
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = C9E0EE5225B08507009E40E6;
+			packageReferences = (
+				C9E0EEB625B0BC92009E40E6 /* XCRemoteSwiftPackageReference "R.swift" */,
+			);
 			productRefGroup = C9E0EE5C25B08507009E40E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +316,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FDAB17D198BCA92E3525DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanaKana-KanaKanaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DAAE806D8167499047A554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanaKana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1772D23CDADFA62A5AAB005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KanaKanaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9E0EE9A25B0B5C7009E40E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/KanaKana/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif mint list | grep -q 'R.swift'; then\n  mint run R.swift rswift generate \"$SRCROOT/KanaKana/Generated/R.generated.swift\"\nelse\n  echo \"error: R.swift not installed; run 'mint bootstrap' to install\"\n  return -1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9E0EE5725B08507009E40E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 				C9E0EE6325B08507009E40E6 /* ViewController.swift in Sources */,
 				C9E0EE5F25B08507009E40E6 /* AppDelegate.swift in Sources */,
 				C9E0EE6125B08507009E40E6 /* SceneDelegate.swift in Sources */,
+				C9E0EEB225B0B97D009E40E6 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +585,7 @@
 		};
 		C9E0EE8625B08509009E40E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C437602E46645E50695E09FF /* Pods-KanaKana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +605,7 @@
 		};
 		C9E0EE8725B08509009E40E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37DC3FA1A54581E9798959B /* Pods-KanaKana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +625,7 @@
 		};
 		C9E0EE8925B08509009E40E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17576D947FC74359E9BA5394 /* Pods-KanaKanaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +648,7 @@
 		};
 		C9E0EE8A25B08509009E40E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337120729D321670256D1E60 /* Pods-KanaKanaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +671,7 @@
 		};
 		C9E0EE8C25B08509009E40E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298A8409A6CDC2C39550DDBB /* Pods-KanaKana-KanaKanaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		C9E0EE8D25B08509009E40E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEEE4E4ACB829F9F06A721C /* Pods-KanaKana-KanaKanaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +751,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9E0EEB625B0BC92009E40E6 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9E0EEB725B0BC92009E40E6 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9E0EEB625B0BC92009E40E6 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9E0EE5325B08507009E40E6 /* Project object */;
 }
