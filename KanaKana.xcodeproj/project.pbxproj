@@ -26,6 +26,8 @@
 		C9E0EED125B0C2C7009E40E6 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = C9E0EED025B0C2C7009E40E6 /* RxRelay */; };
 		C9E0EED325B0C2C7009E40E6 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C9E0EED225B0C2C7009E40E6 /* RxCocoa */; };
 		C9E0EED525B0C2C7009E40E6 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = C9E0EED425B0C2C7009E40E6 /* RxBlocking */; };
+		C9E0EEFB25B1D67A009E40E6 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EEFA25B1D67A009E40E6 /* AppError.swift */; };
+		C9E0EF0325B1D97F009E40E6 /* ApiErrorResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E0EF0225B1D97F009E40E6 /* ApiErrorResponseEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		C9E0EE8025B08509009E40E6 /* KanaKanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaKanaUITests.swift; sourceTree = "<group>"; };
 		C9E0EE8225B08509009E40E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E0EEB125B0B97D009E40E6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		C9E0EEFA25B1D67A009E40E6 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		C9E0EF0225B1D97F009E40E6 /* ApiErrorResponseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorResponseEntity.swift; sourceTree = "<group>"; };
 		D9ED77D6AE9BA29D37A6E5CF /* Pods_KanaKanaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaKanaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE32CE28196B5A8D0250E3BE /* Pods_KanaKana_KanaKanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaKana_KanaKanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEEE4E4ACB829F9F06A721C /* Pods-KanaKana-KanaKanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaKana-KanaKanaUITests.release.xcconfig"; path = "Target Support Files/Pods-KanaKana-KanaKanaUITests/Pods-KanaKana-KanaKanaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 		C9E0EE5D25B08507009E40E6 /* KanaKana */ = {
 			isa = PBXGroup;
 			children = (
+				C9E0EEF325B1D599009E40E6 /* Domain */,
+				C9E0EEF925B1D660009E40E6 /* Entity */,
 				C9E0EEB025B0B97D009E40E6 /* Generated */,
 				C9E0EE5E25B08507009E40E6 /* AppDelegate.swift */,
 				C9E0EE6025B08507009E40E6 /* SceneDelegate.swift */,
@@ -191,6 +197,38 @@
 				C9E0EEB125B0B97D009E40E6 /* R.generated.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		C9E0EEF325B1D599009E40E6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0EEF725B1D641009E40E6 /* Service */,
+				C9E0EEF825B1D64C009E40E6 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C9E0EEF725B1D641009E40E6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C9E0EEF825B1D64C009E40E6 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		C9E0EEF925B1D660009E40E6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C9E0EEFA25B1D67A009E40E6 /* AppError.swift */,
+				C9E0EF0225B1D97F009E40E6 /* ApiErrorResponseEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,8 +469,10 @@
 			files = (
 				C9E0EE6325B08507009E40E6 /* ViewController.swift in Sources */,
 				C9E0EE5F25B08507009E40E6 /* AppDelegate.swift in Sources */,
+				C9E0EEFB25B1D67A009E40E6 /* AppError.swift in Sources */,
 				C9E0EE6125B08507009E40E6 /* SceneDelegate.swift in Sources */,
 				C9E0EEB225B0B97D009E40E6 /* R.generated.swift in Sources */,
+				C9E0EF0325B1D97F009E40E6 /* ApiErrorResponseEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
