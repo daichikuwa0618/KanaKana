@@ -8,3 +8,8 @@
 
 "inputPlaceholder" = "へんかん したい もじを にゅうりょく してください";
 "convertButtonTitle" = "ひらがな にする";
+
+// 成功時のアラート
+"successAlertTitle" = "「%@」は...";
+"successAlertMessage" = "「%@」と読みます！";
+"successAlertButton" = "わかった！";

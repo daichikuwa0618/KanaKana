@@ -26,6 +26,18 @@ class ConvertViewController: UIViewController {
 
         setupConvertButton()
         setupInputTextField()
+
+        observeViewModel()
+    }
+
+    private func observeViewModel() {
+        viewModel.convertedSignal
+            .emit(onNext: { [weak self] converted in
+                guard let self = self, let kanji = self.inputTextField.text else { return }
+
+                self.present(ConvertViewAlert.createResultAlert(kanji: kanji, converted: converted), animated: true)
+            })
+            .disposed(by: disposeBag)
     }
 
     private func setupConvertButton() {
@@ -34,8 +46,7 @@ class ConvertViewController: UIViewController {
         convertButton.rx.tap
             .asDriver() // メインスレッドでの動作を担保するために Driver に変換する
             .drive(onNext: { [weak self] _ in
-                guard let self = self,
-                      let kanji = self.inputTextField.text else { return }
+                guard let self = self, let kanji = self.inputTextField.text else { return }
 
                 self.viewModel.convert(kanji)
             })
