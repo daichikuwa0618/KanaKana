@@ -31,11 +31,21 @@ class ConvertViewController: UIViewController {
     }
 
     private func observeViewModel() {
+        // 変換後の文字列を監視する
         viewModel.convertedSignal
             .emit(onNext: { [weak self] converted in
                 guard let self = self, let kanji = self.inputTextField.text else { return }
 
                 self.present(ConvertViewAlert.createResultAlert(kanji: kanji, converted: converted), animated: true)
+            })
+            .disposed(by: disposeBag)
+
+        // エラーを監視する
+        viewModel.apiErrorSignal
+            .emit(onNext: { [weak self] message in
+                guard let self = self else { return }
+
+                self.present(ConvertViewAlert.createErrorAlert(message: message), animated: true)
             })
             .disposed(by: disposeBag)
     }

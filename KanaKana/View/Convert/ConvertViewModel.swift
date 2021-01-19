@@ -15,9 +15,13 @@ final class ConvertViewModel: ConvertViewModelProtocol {
     private let disposeBag: DisposeBag = DisposeBag()
 
     private let convertedRelay: PublishRelay<String> = PublishRelay()
+    private let apiErrorRelay: PublishRelay<String> = PublishRelay()
 
     var convertedSignal: Signal<String> {
         convertedRelay.asSignal()
+    }
+    var apiErrorSignal: Signal<String> {
+        apiErrorRelay.asSignal()
     }
 
     // MARK: - method
@@ -27,9 +31,11 @@ final class ConvertViewModel: ConvertViewModelProtocol {
                 guard let self = self else { return }
 
                 self.convertedRelay.accept(result.converted)
-            }, onFailure: { error in
-                // TODO: エラーハンドリング
-                print(error)
+            }, onFailure: { [weak self] error in
+                guard let self = self else { return }
+
+                // TODO: エラー原因を通知できるようにする
+                self.apiErrorRelay.accept("不明なエラーです。")
             })
             .disposed(by: disposeBag)
     }
