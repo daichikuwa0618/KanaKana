@@ -13,3 +13,8 @@
 "successAlertTitle" = "「%@」は...";
 "successAlertMessage" = "「%@」と読みます！";
 "successAlertButton" = "わかった！";
+
+// 失敗時のアラート
+"errorAlertTitle" = "エラーが発生しました";
+"errorAlertMessage" = "%@\n再度お試しください。";
+"errorAlertButton" = "閉じる";

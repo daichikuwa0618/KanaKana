@@ -22,4 +22,17 @@ enum ConvertViewAlert {
 
         return alert
     }
+
+    /// エラーアラート
+    static func createErrorAlert(message: String) -> UIAlertController {
+        let alert = UIAlertController(title: R.string.convertView.errorAlertTitle(),
+                                      message: R.string.convertView.errorAlertMessage(message),
+                                      preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: R.string.convertView.errorAlertButton(),
+                                      style: .default,
+                                      handler: nil))
+
+        return alert
+    }
 }
