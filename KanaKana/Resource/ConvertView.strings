@@ -1,0 +1,10 @@
+/* 
+  ConvertView.strings
+  KanaKana
+
+  Created by Daichi Hayashi on 2021/01/20.
+  
+*/
+
+"inputPlaceholder" = "へんかん したい もじを にゅうりょく してください";
+"convertButtonTitle" = "ひらがな にする";
