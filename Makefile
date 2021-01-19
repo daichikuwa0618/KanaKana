@@ -3,7 +3,7 @@ PROJECT_DIR := ./
 .PHONY: bootstrap
 bootstrap:
 	@$(MAKE) mint-bootstrap
-	@$(MAKE) pod-install
+#	@$(MAKE) pod-install
 
 .PHONY: open
 open:
